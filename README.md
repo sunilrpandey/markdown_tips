@@ -91,26 +91,29 @@ Put your comment/multiline comment between
 ```
 
 ### How to fold content
-<details style="margin-left: 20px;">
+<details style="margin-left: 40px;">
 <!--
   <summary><font size="6">To know more unfold me!</font></summary>
   OR 
   <summary><span style="font-size: 16px; font-weight: bold;">To know more unfold me!</span></summary>
 -->
 <summary><font size="6"><b><I><U>To know more unfold me!</U></I></b></font></summary>
-  
-<div style="padding-left: 30px;">
+<div style="padding-left: 20px;">
 Here is heading and content underneath
-### Heading
-1. Foo
-2. Bar
+<h3> Heading</h3>
+<ol>
+    <li>Foo</li>
+    <li>Bar</li>
+  </ul>
+</ol>
+</div>
 
-You can fold even code    
+### You can fold even code    
 ```cpp
 std::cout << "Hello! so you unfolded!">>
 ``` 
 
-</div>
+Note: Font and html listing can be avoided
 </details>  
 
 
