@@ -81,10 +81,25 @@ softbreak using double space at the end of the file
 ### Emoji
 Git hub supports emoji, check emoji ref
 
-### How to fold content
-<details>
-  <summary><font size="6">To know more unfold me!</font></summary>
+### How to add comment 
+Put your comment/multiline comment between 
+```
+<!--
+  Here is the comment
+  ---- comment can continue
+-->
+```
 
+### How to fold content
+<details style="margin-left: 20px;">
+<!--
+  <summary><font size="6">To know more unfold me!</font></summary>
+  OR 
+  <summary><span style="font-size: 16px; font-weight: bold;">To know more unfold me!</span></summary>
+-->
+<summary><font size="6"><b><I><U>To know more unfold me!</U></I></b></font></summary>
+  
+<div style="padding-left: 30px;">
 Here is heading and content underneath
 ### Heading
 1. Foo
@@ -94,6 +109,8 @@ You can fold even code
 ```cpp
 std::cout << "Hello! so you unfolded!">>
 ``` 
+
+</div>
 </details>  
 
 
