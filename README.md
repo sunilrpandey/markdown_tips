@@ -81,6 +81,22 @@ softbreak using double space at the end of the file
 ### Emoji
 Git hub supports emoji, check emoji ref
 
+### How to fold content
+<details>
+  <summary><font size="6">To know more unfold me!</font></summary>
+
+Here is heading and content underneath
+### Heading
+1. Foo
+2. Bar
+
+You can fold even code    
+```cpp
+std::cout << "Hello! so you unfolded!">>
+``` 
+</details>  
+
+
 ## References
 [Github Basic Syntax help](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)   
 [Emoji CheatSheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)   
